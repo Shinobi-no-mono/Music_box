@@ -1,0 +1,372 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    font-family: 'Montserrat';
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* Header */
+
+.page_header {
+    background-image: url(head_back.jpg);
+    height: 1024px;
+    width: auto;
+    background-size: contain;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 70px;
+    padding-top: 70px;
+    /* padding-right: 765px; */
+    padding-left: 110px;
+}
+
+.navigation_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.navigation_list_header {
+    display: block;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.large_music_logo {
+    margin-top: 200px;
+    margin-left: 110px;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.text_info {
+    display: flex;
+    padding-top: 175px;
+    gap: 20px;
+    padding-left: 110px;
+}
+
+.text {
+    color: white;
+    line-height: 28px;
+    font-size: 20px;
+    width: 400;
+}
+
+.iPhone_pict {
+    margin-top: -700px;
+    margin-left: 1105px;
+    /* margin: 0; */
+    padding: 0;
+}
+
+/* Main_1 */
+
+.main_1 {
+    background-color: #D53005;
+    width: auto;
+    height: 1024px;
+}
+
+.main_1_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 70px;
+    padding-top: 70px;
+    /* padding-right: 765px; */
+    padding-left: 110px;
+}
+
+.m_1_text {
+    margin-top: 70px;
+    width: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+.main_1_disc_pict {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -470px;
+    margin-left: 665px;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.main_1_button_1 {
+    margin-left: 110px;
+    margin-top: 200px;
+}
+
+.main_1_button_1_1 {
+    font-size: 40px;
+    width: 200;
+    line-height: 30px;
+    color: white;
+    width: 382px;
+    height: 83px;
+    background: linear-gradient(to right, #B13E18, #F3501A);
+    box-shadow: 6px 6px 6px -0.1em black;
+    border: 1px;
+    cursor: pointer;
+    transition: border-radius 0.3s ease-in;
+}
+
+.main_1_button_1_1:hover {
+    background: rgb(138, 32, 6);
+    box-shadow: 6px 6px 6px -0.1em black;
+    border-radius: 16px;
+}
+
+.main_1_button_2 {
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.main_1_button_2_2 {
+    font-size: 40px;
+    width: 200;
+    line-height: 30px;
+    color: white;
+    width: 382px;
+    height: 83px;
+    background: linear-gradient(to right, #B13E18, #F3501A);
+    box-shadow: 6px 6px 6px -0.1em black;
+    border: 1px;
+    cursor: pointer;
+    transition: border-radius 0.3s ease-in;
+}
+
+.main_1_button_2_2:hover {
+    background: rgb(138, 32, 6);
+    box-shadow: 6px 6px 6px -0.1em black;
+    border-radius: 16px;
+}
+
+/* Main_2 */
+
+.main_2 {
+    background: linear-gradient(to bottom, #D53005 4%, #000000 10% 100%);
+    width: auto;
+    height: 1024px;
+}
+
+.about_link {
+    padding-top: 130px;
+    padding-left: 110px;
+}
+
+.about_link_text {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.main_2_text {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    line-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+/* Main_3 */
+
+.main_3 {
+    background-color: #D53005;
+    width: auto;
+    height: 1024px;
+}
+
+.store_link {
+    padding-top: 130px;
+    padding-left: 110px;
+}
+
+.store_link_text {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.Macbook_Pro_pict {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 665px;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.main_3_button_1 {
+    margin-left: 110px;
+    margin-top: -570px;
+}
+
+.main_3_button_3_1 {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: white;
+    width: 200;
+    line-height: 24px;
+    background-color: #020202E5;
+    width: 240px;
+    height: 60px;
+    box-shadow: 6px 6px 6px -0.3em black;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.main_3_button_2 {
+    margin-left: 110px;
+    margin-top: 90px;
+}
+
+.main_3_button_3_2 {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: black;
+    width: 200;
+    line-height: 24px;
+    background-color: #E3E3E3;
+    width: 240px;
+    height: 60px;
+    box-shadow: 6px 6px 6px -0.3em black;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.text_version {
+    font-family: 'Montserrat';
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.text_version_1 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.text_version_2 {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.text_version_3 {
+    text-decoration: underline; 
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #040404CC;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+/* Footer */
+
+.page_footer {
+    background: linear-gradient(to bottom, #D53005 4%, #000000 10% 100%);
+    width: auto;
+    height: 536px;
+}
+
+.navigation_footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.navigation_list_footer{
+    display: block;
+    border: none;
+    color: white;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.MPlayer_Store_list {
+    margin-left: 0px;
+    margin-top: 95px;
+}
+
+.values_MPlayer_list {
+    margin-left: 110px;
+    margin-top: 95px;
+}
+
+.Account_list {
+    margin-top: 95px;
+    margin-left: 90px;
+}
+
+.bottom_footer_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 115px;
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+    margin-left: -250px;
+    margin-top: 444px;
+    position: absolute;
+}
+
+.music_logo_footer {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+}
